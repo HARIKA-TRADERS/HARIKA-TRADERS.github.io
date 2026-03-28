@@ -256,9 +256,16 @@ iframe {
 
 .hero-card-image {
   margin: 22px 0;
-  padding: 18px;
   border-radius: 24px;
+  overflow: hidden;
+  min-height: 320px;
   background: rgba(248, 245, 239, 0.94);
+}
+
+.hero-card-image img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
 }
 
 .hero-card-bottom h2 {
@@ -344,13 +351,19 @@ iframe {
 }
 
 .product-image {
-  padding: 18px;
   background:
     linear-gradient(135deg, rgba(240, 180, 41, 0.2) 0%, rgba(16, 20, 23, 0.08) 100%),
     #fcfbf8;
   min-height: 220px;
-  display: grid;
-  place-items: center;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  display: block;
 }
 
 .product-copy {
