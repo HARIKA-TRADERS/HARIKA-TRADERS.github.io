@@ -227,20 +227,62 @@ iframe {
   border: 1px solid var(--line);
 }
 
-.hero-card {
+.hero-slider {
   background: linear-gradient(180deg, rgba(255, 217, 119, 0.1) 0%, rgba(255, 255, 255, 0.04) 100%);
   border: 1px solid rgba(240, 180, 41, 0.22);
   border-radius: var(--radius-lg);
-  padding: 24px;
   box-shadow: var(--shadow);
+  overflow: hidden;
+  position: relative;
 }
 
-.hero-card-top,
+.slider-track,
 .price-header {
+  position: relative;
+}
+
+.slide {
+  position: relative;
+  display: none;
+  min-height: 560px;
+}
+
+.slide.is-active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  display: block;
+}
+
+.slide-overlay {
+  position: absolute;
+  inset: auto 24px 24px 24px;
+  padding: 24px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(16, 20, 23, 0.2) 0%, rgba(16, 20, 23, 0.86) 100%);
+  color: var(--text);
+}
+
+.slide-overlay h2 {
+  font-size: 2rem;
+  margin: 12px 0 10px;
+}
+
+.slide-overlay p {
+  margin: 0;
+}
+
+.slider-controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  padding: 18px 24px 22px;
+  background: rgba(16, 20, 23, 0.94);
 }
 
 .badge,
@@ -249,47 +291,35 @@ iframe {
   color: var(--accent-soft);
 }
 
-.badge-dark {
+.slider-arrow {
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
   color: var(--text);
-  background: rgba(255, 255, 255, 0.08);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
-.hero-card-image {
-  margin: 22px 0;
-  border-radius: 24px;
-  overflow: hidden;
-  min-height: 320px;
-  background: rgba(248, 245, 239, 0.94);
+.slider-dots {
+  display: flex;
+  gap: 10px;
 }
 
-.hero-card-image img {
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
+.slider-dot {
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+  cursor: pointer;
 }
 
-.hero-card-bottom h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.contact-strip {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.contact-strip div {
-  padding: 16px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.contact-strip small {
-  color: var(--muted);
-  display: block;
-  margin-bottom: 6px;
+.slider-dot.is-active {
+  width: 30px;
+  background: var(--accent);
 }
 
 .trust-strip {
@@ -578,6 +608,7 @@ iframe {
   }
 
   .hero-card,
+  .hero-slider,
   .contact-card,
   .price-card,
   .product-copy,
@@ -606,7 +637,22 @@ iframe {
     bottom: 14px;
   }
 
-  .contact-strip {
-    grid-template-columns: 1fr;
+  .slide,
+  .slide img {
+    min-height: 430px;
+    height: 430px;
+  }
+
+  .slide-overlay {
+    inset: auto 16px 16px 16px;
+    padding: 18px;
+  }
+
+  .slide-overlay h2 {
+    font-size: 1.45rem;
+  }
+
+  .slider-controls {
+    padding: 14px 16px 18px;
   }
 }
