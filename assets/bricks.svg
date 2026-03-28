@@ -1,0 +1,17 @@
+<svg width="640" height="460" viewBox="0 0 640 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="460" rx="36" fill="#F8F5EF"/>
+  <rect x="78" y="304" width="484" height="82" rx="22" fill="#D8D3CB"/>
+  <rect x="126" y="120" width="138" height="72" rx="14" fill="#D16D3D"/>
+  <rect x="278" y="120" width="138" height="72" rx="14" fill="#BA5830"/>
+  <rect x="430" y="120" width="84" height="72" rx="14" fill="#D16D3D"/>
+  <rect x="96" y="208" width="138" height="72" rx="14" fill="#BA5830"/>
+  <rect x="248" y="208" width="138" height="72" rx="14" fill="#D16D3D"/>
+  <rect x="400" y="208" width="138" height="72" rx="14" fill="#BA5830"/>
+  <path d="M130 156H259" stroke="#E7A07A" stroke-width="6"/>
+  <path d="M282 156H411" stroke="#E7A07A" stroke-width="6"/>
+  <path d="M100 244H229" stroke="#E7A07A" stroke-width="6"/>
+  <path d="M252 244H381" stroke="#E7A07A" stroke-width="6"/>
+  <path d="M404 244H533" stroke="#E7A07A" stroke-width="6"/>
+  <rect x="82" y="68" width="160" height="36" rx="18" fill="#F0B429"/>
+  <text x="108" y="92" fill="#101417" font-family="Arial, sans-serif" font-size="21" font-weight="700">BRICKS</text>
+</svg>

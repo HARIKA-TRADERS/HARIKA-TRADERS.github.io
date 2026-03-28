@@ -1,0 +1,17 @@
+<svg width="640" height="460" viewBox="0 0 640 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="460" rx="36" fill="#F8F5EF"/>
+  <rect x="50" y="320" width="540" height="70" rx="18" fill="#D5D0C7"/>
+  <path d="M155 162C155 144.327 169.327 130 187 130H299C316.673 130 331 144.327 331 162V319H155V162Z" fill="#F0B429"/>
+  <path d="M309 130H407C424.673 130 439 144.327 439 162V319H309V130Z" fill="#DDA018"/>
+  <rect x="179" y="164" width="126" height="17" rx="8.5" fill="#101417" fill-opacity="0.14"/>
+  <rect x="339" y="164" width="72" height="17" rx="8.5" fill="#101417" fill-opacity="0.14"/>
+  <rect x="170" y="194" width="144" height="85" rx="18" fill="#FFF8E8"/>
+  <rect x="326" y="194" width="95" height="85" rx="18" fill="#FCE7AA"/>
+  <path d="M242 205L258 240H226L242 205Z" fill="#F0B429"/>
+  <path d="M242 219L252 241H232L242 219Z" fill="#C98A00"/>
+  <text x="186" y="295" fill="#101417" font-family="Arial, sans-serif" font-size="24" font-weight="700">CEMENT</text>
+  <text x="336" y="295" fill="#101417" font-family="Arial, sans-serif" font-size="18" font-weight="700">53 GRADE</text>
+  <path d="M118 336H495" stroke="#908A80" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="510" cy="118" r="46" fill="#101417"/>
+  <path d="M492 118L506 132L528 106" stroke="#F0B429" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
