@@ -1,20 +1,20 @@
 :root {
-  --bg: #101417;
-  --surface: #181d21;
-  --surface-soft: #21282d;
-  --card: #f8f5ef;
-  --text: #f4f1ea;
-  --muted: #b7b3ab;
-  --ink: #101417;
-  --line: rgba(255, 255, 255, 0.08);
-  --accent: #f0b429;
-  --accent-deep: #c98a00;
-  --accent-soft: #ffd977;
+  --bg: #f7f4f1;
+  --surface: #ffffff;
+  --surface-soft: #f0e9e6;
+  --card: #ffffff;
+  --text: #151515;
+  --muted: #5f5754;
+  --ink: #151515;
+  --line: rgba(21, 21, 21, 0.09);
+  --accent: #b32025;
+  --accent-deep: #8f171c;
+  --accent-soft: #f4d7d8;
   --success: #29a76b;
-  --shadow: 0 20px 50px rgba(0, 0, 0, 0.24);
-  --radius-lg: 28px;
-  --radius-md: 20px;
-  --radius-sm: 14px;
+  --shadow: 0 16px 40px rgba(17, 17, 17, 0.08);
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
   --container: min(1120px, calc(100vw - 32px));
 }
 
@@ -30,9 +30,7 @@ body {
   margin: 0;
   font-family: "Manrope", sans-serif;
   color: var(--text);
-  background:
-    radial-gradient(circle at top left, rgba(240, 180, 41, 0.18), transparent 30%),
-    linear-gradient(180deg, #0d1012 0%, #14191d 40%, #12171a 100%);
+  background: var(--bg);
 }
 
 img {
@@ -59,7 +57,7 @@ iframe {
   top: 0;
   z-index: 30;
   backdrop-filter: blur(14px);
-  background: rgba(16, 20, 23, 0.82);
+  background: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid var(--line);
 }
 
@@ -101,9 +99,8 @@ iframe {
   place-items: center;
   font-family: "Oswald", sans-serif;
   font-size: 1.25rem;
-  background: linear-gradient(145deg, var(--accent) 0%, var(--accent-deep) 100%);
-  color: var(--ink);
-  box-shadow: var(--shadow);
+  background: var(--accent);
+  color: #ffffff;
 }
 
 .nav-links {
@@ -118,7 +115,7 @@ iframe {
 }
 
 .hero {
-  padding: 72px 0 36px;
+  padding: 56px 0 28px;
 }
 
 .eyebrow {
@@ -128,7 +125,7 @@ iframe {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 0.8rem;
-  color: var(--accent-soft);
+  color: var(--accent);
   margin: 0 0 14px;
 }
 
@@ -157,7 +154,7 @@ iframe {
 .trust-grid p,
 .site-footer p {
   color: var(--muted);
-  line-height: 1.75;
+  line-height: 1.7;
 }
 
 .hero-actions,
@@ -191,14 +188,15 @@ iframe {
 }
 
 .button-primary {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
-  color: var(--ink);
-  box-shadow: 0 16px 30px rgba(240, 180, 41, 0.28);
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(179, 32, 37, 0.18);
 }
 
 .button-secondary {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(21, 21, 21, 0.14);
+  background: #ffffff;
+  color: var(--ink);
 }
 
 .hero-points {
@@ -221,13 +219,13 @@ iframe {
 }
 
 .hero-points li {
-  background: rgba(255, 255, 255, 0.06);
+  background: #ffffff;
   border: 1px solid var(--line);
 }
 
 .hero-slider {
-  background: linear-gradient(180deg, rgba(255, 217, 119, 0.1) 0%, rgba(255, 255, 255, 0.04) 100%);
-  border: 1px solid rgba(240, 180, 41, 0.22);
+  background: #ffffff;
+  border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -273,9 +271,9 @@ iframe {
   inset: auto auto 28px 28px;
   width: min(560px, calc(100% - 56px));
   padding: 28px;
-  border-radius: 24px;
-  background: linear-gradient(180deg, rgba(16, 20, 23, 0.1) 0%, rgba(16, 20, 23, 0.9) 100%);
-  color: var(--text);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(21, 21, 21, 0.15) 0%, rgba(21, 21, 21, 0.82) 100%);
+  color: #ffffff;
   backdrop-filter: blur(6px);
 }
 
@@ -294,13 +292,14 @@ iframe {
   justify-content: space-between;
   gap: 16px;
   padding: 18px 24px 22px;
-  background: rgba(16, 20, 23, 0.94);
+  background: #ffffff;
+  border-top: 1px solid var(--line);
 }
 
 .badge,
 .pricing-badge {
-  background: rgba(240, 180, 41, 0.16);
-  color: var(--accent-soft);
+  background: rgba(179, 32, 37, 0.1);
+  color: var(--accent);
 }
 
 .slider-arrow {
@@ -308,8 +307,8 @@ iframe {
   height: 46px;
   border: 0;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text);
+  background: var(--surface-soft);
+  color: var(--ink);
   font-size: 1.2rem;
   font-weight: 800;
   line-height: 1;
@@ -326,7 +325,7 @@ iframe {
   height: 12px;
   border: 0;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(21, 21, 21, 0.18);
   cursor: pointer;
 }
 
@@ -350,7 +349,7 @@ iframe {
 .benefit-grid article {
   padding: 22px;
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.04);
+  background: #ffffff;
   border: 1px solid var(--line);
 }
 
@@ -390,13 +389,11 @@ iframe {
 
 .product-card.featured {
   position: relative;
-  transform: translateY(-6px);
+  border: 1px solid rgba(179, 32, 37, 0.16);
 }
 
 .product-image {
-  background:
-    linear-gradient(135deg, rgba(240, 180, 41, 0.2) 0%, rgba(16, 20, 23, 0.08) 100%),
-    #fcfbf8;
+  background: #f7f3f2;
   min-height: 220px;
   overflow: hidden;
 }
@@ -431,29 +428,30 @@ iframe {
 
 .pill {
   display: inline-block;
-  background: rgba(240, 180, 41, 0.18);
-  color: #8a5d00;
+  background: rgba(179, 32, 37, 0.1);
+  color: var(--accent);
   margin-bottom: 12px;
 }
 
 .pricing-section {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(240, 180, 41, 0.06) 100%);
+  background: #f2ece8;
 }
 
 .price-card {
   padding: 26px;
-  border: 1px solid rgba(240, 180, 41, 0.14);
-  background: rgba(20, 25, 29, 0.86);
+  border: 1px solid var(--line);
+  background: #ffffff;
 }
 
 .price-card.highlighted {
-  background: linear-gradient(180deg, rgba(240, 180, 41, 0.18) 0%, rgba(20, 25, 29, 0.95) 100%);
+  border-color: rgba(179, 32, 37, 0.22);
+  background: linear-gradient(180deg, rgba(179, 32, 37, 0.04) 0%, #ffffff 100%);
 }
 
 .price {
   font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
-  color: var(--accent-soft);
+  color: var(--accent);
   margin: 12px 0 8px;
 }
 
@@ -465,7 +463,7 @@ iframe {
 .price-card a {
   display: inline-flex;
   margin-top: 12px;
-  color: var(--accent-soft);
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -476,15 +474,19 @@ iframe {
   align-items: center;
   padding: 34px;
   border-radius: var(--radius-lg);
-  background:
-    linear-gradient(135deg, rgba(240, 180, 41, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%),
-    rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(240, 180, 41, 0.24);
+  background: #141414;
+  border: 1px solid #141414;
 }
 
 .bulk-panel h2 {
   font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 10px;
+}
+
+.bulk-panel .eyebrow,
+.bulk-panel p,
+.bulk-panel h2 {
+  color: #ffffff;
 }
 
 .contact-section {
@@ -499,13 +501,14 @@ iframe {
 
 .contact-card {
   padding: 28px;
-  background: #f5f1e9;
+  background: #ffffff;
   color: var(--ink);
+  border: 1px solid var(--line);
 }
 
 .contact-card p,
 .contact-card .eyebrow {
-  color: #6b665d;
+  color: var(--muted);
 }
 
 .enquiry-form {
@@ -524,11 +527,11 @@ iframe {
 .enquiry-form select,
 .enquiry-form textarea {
   width: 100%;
-  border: 1px solid #d4cec4;
-  border-radius: 14px;
+  border: 1px solid #d8d1ce;
+  border-radius: 12px;
   padding: 14px 16px;
   font: inherit;
-  background: #fffdfa;
+  background: #ffffff;
 }
 
 .form-note {
@@ -548,9 +551,15 @@ iframe {
   min-height: 320px;
 }
 
-.map-frame iframe {
-  width: 100%;
+.map-placeholder {
   min-height: 320px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 28px;
+  background: linear-gradient(180deg, #f7f4f1 0%, #efe8e5 100%);
+  border: 1px solid #e3dad6;
 }
 
 .contact-details ul {
@@ -560,6 +569,7 @@ iframe {
 .site-footer {
   padding: 22px 0 34px;
   border-top: 1px solid var(--line);
+  background: #ffffff;
 }
 
 .footer-grid {
