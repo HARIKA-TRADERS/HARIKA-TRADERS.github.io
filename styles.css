@@ -132,7 +132,7 @@ iframe {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 0.8rem;
-  color: var(--accent);
+  color: #7a4b4d;
   margin: 0 0 14px;
 }
 
@@ -149,7 +149,7 @@ iframe {
 .hero h1 {
   font-size: clamp(2.8rem, 6vw, 5rem);
   max-width: 12ch;
-  color: var(--accent);
+  color: #241d1d;
 }
 
 .hero-text,
@@ -179,8 +179,8 @@ iframe {
   margin-bottom: 32px;
   padding: 28px 30px;
   border-radius: 22px;
-  background: linear-gradient(180deg, rgba(164, 34, 39, 0.035) 0%, rgba(255, 255, 255, 0.96) 100%);
-  border: 1px solid rgba(164, 34, 39, 0.09);
+  background: linear-gradient(180deg, rgba(164, 34, 39, 0.02) 0%, rgba(255, 255, 255, 0.98) 100%);
+  border: 1px solid rgba(21, 21, 21, 0.06);
 }
 
 .button {
@@ -203,7 +203,7 @@ iframe {
 .button-primary {
   background: var(--accent);
   color: #ffffff;
-  box-shadow: 0 10px 24px rgba(179, 32, 37, 0.18);
+  box-shadow: 0 10px 20px rgba(164, 34, 39, 0.14);
 }
 
 .button-secondary {
