@@ -561,15 +561,17 @@ iframe {
   min-height: 320px;
 }
 
-.map-placeholder {
+.map-frame iframe {
+  width: 100%;
   min-height: 320px;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  gap: 16px;
-  padding: 28px;
-  background: linear-gradient(180deg, #f8ecec 0%, #f1e2e0 100%);
-  border: 1px solid #e6caca;
+  display: block;
+}
+
+.map-link {
+  display: inline-flex;
+  margin-top: 16px;
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .contact-details ul {
