@@ -1,15 +1,15 @@
 :root {
-  --bg: #f7f2f0;
+  --bg: #f3f6fa;
   --surface: #ffffff;
-  --surface-soft: #f4ebea;
+  --surface-soft: #e9eff7;
   --card: #ffffff;
   --text: #151515;
-  --muted: #47403d;
+  --muted: #4d5661;
   --ink: #151515;
   --line: rgba(21, 21, 21, 0.09);
-  --accent: #a42227;
-  --accent-deep: #7f171b;
-  --accent-soft: #f3d8d9;
+  --accent: #1f4f8d;
+  --accent-deep: #163a67;
+  --accent-soft: #d8e5f7;
   --success: #29a76b;
   --shadow: 0 16px 40px rgba(17, 17, 17, 0.08);
   --radius-lg: 22px;
@@ -31,7 +31,7 @@ body {
   font-family: "Manrope", sans-serif;
   color: var(--text);
   background:
-    linear-gradient(180deg, #f7eeec 0%, #faf7f5 18%, #f7f2f0 100%);
+    linear-gradient(180deg, #edf3f9 0%, #f8fbfd 18%, #f3f6fa 100%);
   letter-spacing: -0.01em;
 }
 
@@ -122,7 +122,7 @@ iframe {
 .hero {
   padding: 56px 0 28px;
   background:
-    linear-gradient(180deg, rgba(164, 34, 39, 0.05) 0%, rgba(164, 34, 39, 0.015) 56%, transparent 100%);
+    linear-gradient(180deg, rgba(31, 79, 141, 0.05) 0%, rgba(31, 79, 141, 0.015) 56%, transparent 100%);
 }
 
 .eyebrow {
@@ -132,7 +132,7 @@ iframe {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 0.8rem;
-  color: #7a4b4d;
+  color: #4f6480;
   margin: 0 0 14px;
 }
 
@@ -179,7 +179,7 @@ iframe {
   margin-bottom: 32px;
   padding: 28px 30px;
   border-radius: 22px;
-  background: linear-gradient(180deg, rgba(164, 34, 39, 0.02) 0%, rgba(255, 255, 255, 0.98) 100%);
+  background: linear-gradient(180deg, rgba(31, 79, 141, 0.02) 0%, rgba(255, 255, 255, 0.98) 100%);
   border: 1px solid rgba(21, 21, 21, 0.06);
 }
 
@@ -203,12 +203,12 @@ iframe {
 .button-primary {
   background: var(--accent);
   color: #ffffff;
-  box-shadow: 0 10px 20px rgba(164, 34, 39, 0.14);
+  box-shadow: 0 10px 20px rgba(31, 79, 141, 0.14);
 }
 
 .button-secondary {
   border: 1px solid rgba(21, 21, 21, 0.14);
-  background: #fff7f7;
+  background: #f8fbff;
   color: var(--ink);
 }
 
@@ -232,14 +232,14 @@ iframe {
 }
 
 .hero-points li {
-  background: rgba(164, 34, 39, 0.05);
-  border: 1px solid rgba(164, 34, 39, 0.08);
+  background: rgba(31, 79, 141, 0.05);
+  border: 1px solid rgba(31, 79, 141, 0.08);
   color: var(--accent-deep);
 }
 
 .hero-slider {
   background: #ffffff;
-  border: 1px solid rgba(164, 34, 39, 0.09);
+  border: 1px solid rgba(31, 79, 141, 0.09);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -286,7 +286,7 @@ iframe {
   width: min(560px, calc(100% - 56px));
   padding: 28px;
   border-radius: 18px;
-  background: linear-gradient(180deg, rgba(97, 12, 16, 0.14) 0%, rgba(21, 21, 21, 0.86) 100%);
+  background: linear-gradient(180deg, rgba(20, 52, 93, 0.2) 0%, rgba(17, 23, 31, 0.82) 100%);
   color: #ffffff;
   backdrop-filter: blur(6px);
 }
@@ -312,7 +312,7 @@ iframe {
 
 .badge,
 .pricing-badge {
-  background: rgba(164, 34, 39, 0.08);
+  background: rgba(31, 79, 141, 0.08);
   color: var(--accent);
 }
 
@@ -364,7 +364,7 @@ iframe {
   padding: 22px;
   border-radius: var(--radius-md);
   background: #ffffff;
-  border: 1px solid rgba(164, 34, 39, 0.06);
+  border: 1px solid rgba(31, 79, 141, 0.06);
 }
 
 .section {
@@ -403,12 +403,12 @@ iframe {
 
 .product-card.featured {
   position: relative;
-  border: 1px solid rgba(164, 34, 39, 0.1);
-  box-shadow: 0 18px 36px rgba(164, 34, 39, 0.05);
+  border: 1px solid rgba(31, 79, 141, 0.1);
+  box-shadow: 0 18px 36px rgba(31, 79, 141, 0.05);
 }
 
 .product-image {
-  background: #f7f3f2;
+  background: #f2f6fb;
   min-height: 220px;
   overflow: hidden;
 }
@@ -444,24 +444,24 @@ iframe {
 
 .pill {
   display: inline-block;
-  background: rgba(164, 34, 39, 0.08);
+  background: rgba(31, 79, 141, 0.08);
   color: var(--accent);
   margin-bottom: 12px;
 }
 
 .pricing-section {
-  background: linear-gradient(180deg, #f5ece9 0%, #f8f4f2 100%);
+  background: linear-gradient(180deg, #ecf2f8 0%, #f7fafe 100%);
 }
 
 .price-card {
   padding: 26px;
-  border: 1px solid rgba(164, 34, 39, 0.07);
+  border: 1px solid rgba(31, 79, 141, 0.07);
   background: #ffffff;
 }
 
 .price-card.highlighted {
-  border-color: rgba(164, 34, 39, 0.14);
-  background: linear-gradient(180deg, rgba(164, 34, 39, 0.025) 0%, #ffffff 100%);
+  border-color: rgba(31, 79, 141, 0.14);
+  background: linear-gradient(180deg, rgba(31, 79, 141, 0.025) 0%, #ffffff 100%);
 }
 
 .price {
@@ -520,7 +520,7 @@ iframe {
   padding: 28px;
   background: #ffffff;
   color: var(--ink);
-  border: 1px solid rgba(164, 34, 39, 0.06);
+  border: 1px solid rgba(31, 79, 141, 0.06);
 }
 
 .contact-card p,
