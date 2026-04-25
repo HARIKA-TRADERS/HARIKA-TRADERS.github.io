@@ -394,6 +394,22 @@ iframe {
   color: var(--heading);
 }
 
+.brand-logo-img {
+  width: 100%;
+  max-width: 180px;
+  height: 58px;
+  object-fit: contain;
+  object-position: left center;
+  display: block;
+  margin: 6px 0 10px;
+}
+
+.brand-logo-label {
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.01em;
+}
+
 .trust-grid,
 .benefit-grid {
   display: grid;
@@ -503,6 +519,7 @@ iframe {
 .mini-logo {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 38px;
   padding: 0 14px;
   border-radius: 999px;
@@ -512,6 +529,18 @@ iframe {
   font-size: 0.88rem;
   font-weight: 800;
   letter-spacing: -0.01em;
+}
+
+.mini-logo img {
+  width: auto;
+  max-width: 92px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+}
+
+.mini-logo-text {
+  min-width: 62px;
 }
 
 .pill {
