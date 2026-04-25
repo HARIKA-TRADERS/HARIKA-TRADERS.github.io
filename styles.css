@@ -3,9 +3,11 @@
   --surface: #ffffff;
   --surface-soft: #e9eff7;
   --card: #ffffff;
-  --text: #151515;
-  --muted: #4d5661;
-  --ink: #151515;
+  --text: #1b2530;
+  --muted: #5a6572;
+  --ink: #18212b;
+  --heading: #173250;
+  --heading-soft: #2b4b69;
   --line: rgba(21, 21, 21, 0.09);
   --accent: #1f4f8d;
   --accent-deep: #163a67;
@@ -89,6 +91,7 @@ iframe {
   letter-spacing: -0.02em;
   font-size: 1.5rem;
   line-height: 1.05;
+  color: var(--heading);
 }
 
 .brand small {
@@ -152,7 +155,7 @@ iframe {
 .hero h1 {
   font-size: clamp(2.8rem, 6vw, 5rem);
   max-width: 12ch;
-  color: #241d1d;
+  color: var(--heading);
 }
 
 .hero-text,
@@ -388,6 +391,7 @@ iframe {
   font-family: "Playfair Display", serif;
   font-size: 1.45rem;
   letter-spacing: -0.02em;
+  color: var(--heading);
 }
 
 .trust-grid,
@@ -417,6 +421,7 @@ iframe {
 .section-heading h2 {
   font-size: clamp(2.1rem, 4vw, 3.4rem);
   margin-bottom: 12px;
+  color: var(--heading);
 }
 
 .product-grid,
@@ -477,13 +482,14 @@ iframe {
   margin-bottom: 10px;
   font-size: 1.32rem;
   letter-spacing: -0.02em;
+  color: var(--heading-soft);
 }
 
 .product-copy ul,
 .contact-details ul {
   padding-left: 18px;
   margin: 16px 0 0;
-  color: #383e44;
+  color: #425161;
   line-height: 1.8;
 }
 
@@ -592,6 +598,10 @@ iframe {
 .contact-card p,
 .contact-card .eyebrow {
   color: var(--muted);
+}
+
+.contact-card h2 {
+  color: var(--heading);
 }
 
 .enquiry-form {
