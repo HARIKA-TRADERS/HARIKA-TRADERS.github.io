@@ -1,0 +1,18 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#EEF4FA"/>
+  <rect x="122" y="520" width="956" height="120" rx="24" fill="#D9E4EF"/>
+  <rect x="186" y="242" width="242" height="124" rx="16" fill="#DDE7F0" stroke="#AEBECE" stroke-width="8"/>
+  <rect x="450" y="242" width="242" height="124" rx="16" fill="#DDE7F0" stroke="#AEBECE" stroke-width="8"/>
+  <rect x="714" y="242" width="242" height="124" rx="16" fill="#DDE7F0" stroke="#AEBECE" stroke-width="8"/>
+  <rect x="252" y="384" width="242" height="124" rx="16" fill="#E7EEF5" stroke="#AEBECE" stroke-width="8"/>
+  <rect x="516" y="384" width="242" height="124" rx="16" fill="#E7EEF5" stroke="#AEBECE" stroke-width="8"/>
+  <path d="M186 304H428" stroke="#BAC8D5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M450 304H692" stroke="#BAC8D5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M714 304H956" stroke="#BAC8D5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M252 446H494" stroke="#C6D2DE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M516 446H758" stroke="#C6D2DE" stroke-width="8" stroke-linecap="round"/>
+  <rect x="148" y="146" width="320" height="58" rx="18" fill="#1F4F8D"/>
+  <text x="188" y="184" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="700">AAC BLOCKS</text>
+  <rect x="824" y="120" width="208" height="84" rx="20" fill="#2D7F87"/>
+  <text x="862" y="172" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">LIGHTWEIGHT</text>
+</svg>
