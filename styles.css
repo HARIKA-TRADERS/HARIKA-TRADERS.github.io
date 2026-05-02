@@ -188,9 +188,10 @@ iframe {
 }
 
 .button-secondary {
-  border: 1px solid var(--line);
-  background: #f8fbff;
-  color: var(--text);
+  border: 1px solid #1f4f8d;
+  background: #ffffff;
+  color: #1f4f8d;
+  box-shadow: 0 8px 18px rgba(31, 79, 141, 0.18);
 }
 
 .hero-points {
@@ -256,10 +257,10 @@ iframe {
 
 .brand-strip-logo {
   width: 100%;
-  height: 96px;
+  height: 108px;
   object-fit: contain;
   object-position: center;
-  padding: 12px 14px;
+  padding: 8px 10px;
   background: #ffffff;
   border: 1px solid rgba(31, 79, 141, 0.14);
   border-radius: 12px;
@@ -267,7 +268,7 @@ iframe {
 }
 
 .brand-strip-logo-main {
-  height: 112px;
+  height: 124px;
 }
 
 .product-grid,
@@ -346,8 +347,8 @@ iframe {
 
 .product-brands img {
   width: auto;
-  max-width: 168px;
-  height: 48px;
+  max-width: 196px;
+  height: 56px;
   object-fit: contain;
 }
 
@@ -506,11 +507,11 @@ iframe {
   }
 
   .brand-strip-logo {
-    height: 108px;
+    height: 118px;
   }
 
   .brand-strip-logo-main {
-    height: 124px;
+    height: 132px;
   }
 
   .product-brands {
@@ -518,8 +519,8 @@ iframe {
   }
 
   .product-brands img {
-    max-width: 150px;
-    height: 44px;
+    max-width: 172px;
+    height: 50px;
   }
 
   .button {
